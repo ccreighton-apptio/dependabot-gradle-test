@@ -1,0 +1,11 @@
+//
+// This idea of arranging dependencies like this came from
+//  https://proandroiddev.com/treat-your-build-files-as-you-treat-your-code-def80ac52978
+
+ext {
+  commonsIoVersion = "2.10.0"
+
+  deps = [
+    commons_io                : "commons-io:commons-io:${commonsIoVersion}",
+  ]
+}
